@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FA343EE1E38D796898B55C3 /* libPods-WebrtcCaptureDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F99186A73EC9982BA7C912F /* libPods-WebrtcCaptureDemoUITests.a */; };
+		A8F9919B20A026BE000A72A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9919A20A026BE000A72A0 /* AppDelegate.m */; };
+		A8F9919E20A026BE000A72A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9919D20A026BE000A72A0 /* ViewController.m */; };
+		A8F991A120A026BE000A72A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F9919F20A026BE000A72A0 /* Main.storyboard */; };
+		A8F991A320A026BE000A72A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F991A220A026BE000A72A0 /* Assets.xcassets */; };
+		A8F991A620A026BE000A72A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F991A420A026BE000A72A0 /* LaunchScreen.storyboard */; };
+		A8F991A920A026BE000A72A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F991A820A026BE000A72A0 /* main.m */; };
+		A8F991B320A026BE000A72A0 /* WebrtcCaptureDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F991B220A026BE000A72A0 /* WebrtcCaptureDemoTests.m */; };
+		A8F991BE20A026BE000A72A0 /* WebrtcCaptureDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F991BD20A026BE000A72A0 /* WebrtcCaptureDemoUITests.m */; };
+		A8F9934820A14009000A72A0 /* RTCCameraPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9934620A14009000A72A0 /* RTCCameraPreviewView.m */; };
+		A8F9934C20A14011000A72A0 /* AVCaptureSession+DevicePosition.mm in Sources */ = {isa = PBXBuildFile; fileRef = A8F9934B20A14011000A72A0 /* AVCaptureSession+DevicePosition.mm */; };
+		A8F9936020A14633000A72A0 /* RTCDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9935F20A14633000A72A0 /* RTCDispatcher.m */; };
+		A8F9936320A14BE2000A72A0 /* RTCCameraVideoCapturer.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9936220A14BE2000A72A0 /* RTCCameraVideoCapturer.m */; };
+		A8F9936620A14D1E000A72A0 /* RTCVideoCapturer.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9936520A14D1E000A72A0 /* RTCVideoCapturer.m */; };
+		A8F9936A20A14E22000A72A0 /* RTCVideoFrame.mm in Sources */ = {isa = PBXBuildFile; fileRef = A8F9936920A14E21000A72A0 /* RTCVideoFrame.mm */; };
+		EEDA2D51ACC6889E9BA5BE93 /* libPods-WebrtcCaptureDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F863C542A77EA88E3D3E03ED /* libPods-WebrtcCaptureDemoTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8F991AF20A026BE000A72A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8F9918E20A026BE000A72A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8F9919520A026BE000A72A0;
+			remoteInfo = WebrtcCaptureDemo;
+		};
+		A8F991BA20A026BE000A72A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8F9918E20A026BE000A72A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8F9919520A026BE000A72A0;
+			remoteInfo = WebrtcCaptureDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01BAEE28399EE19940F081B2 /* libPods-WebrtcCaptureDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebrtcCaptureDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F99186A73EC9982BA7C912F /* libPods-WebrtcCaptureDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebrtcCaptureDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F9919620A026BE000A72A0 /* WebrtcCaptureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebrtcCaptureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F9919920A026BE000A72A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A8F9919A20A026BE000A72A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A8F9919C20A026BE000A72A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A8F9919D20A026BE000A72A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A8F991A020A026BE000A72A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8F991A220A026BE000A72A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8F991A520A026BE000A72A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8F991A720A026BE000A72A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F991A820A026BE000A72A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8F991AE20A026BE000A72A0 /* WebrtcCaptureDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebrtcCaptureDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F991B220A026BE000A72A0 /* WebrtcCaptureDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebrtcCaptureDemoTests.m; sourceTree = "<group>"; };
+		A8F991B420A026BE000A72A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F991B920A026BE000A72A0 /* WebrtcCaptureDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebrtcCaptureDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F991BD20A026BE000A72A0 /* WebrtcCaptureDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebrtcCaptureDemoUITests.m; sourceTree = "<group>"; };
+		A8F991BF20A026BE000A72A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F9934620A14009000A72A0 /* RTCCameraPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTCCameraPreviewView.m; sourceTree = "<group>"; };
+		A8F9934A20A14011000A72A0 /* AVCaptureSession+DevicePosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVCaptureSession+DevicePosition.h"; sourceTree = "<group>"; };
+		A8F9934B20A14011000A72A0 /* AVCaptureSession+DevicePosition.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "AVCaptureSession+DevicePosition.mm"; sourceTree = "<group>"; };
+		A8F9934F20A14082000A72A0 /* RTCCameraPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCCameraPreviewView.h; sourceTree = "<group>"; };
+		A8F9935020A14082000A72A0 /* RTCCameraVideoCapturer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCCameraVideoCapturer.h; sourceTree = "<group>"; };
+		A8F9935220A14134000A72A0 /* RTCDispatcher+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RTCDispatcher+Private.h"; sourceTree = "<group>"; };
+		A8F9935D20A1462D000A72A0 /* RTCDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCDispatcher.h; sourceTree = "<group>"; };
+		A8F9935E20A1462D000A72A0 /* RTCMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCMacros.h; sourceTree = "<group>"; };
+		A8F9935F20A14633000A72A0 /* RTCDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTCDispatcher.m; sourceTree = "<group>"; };
+		A8F9936220A14BE2000A72A0 /* RTCCameraVideoCapturer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTCCameraVideoCapturer.m; sourceTree = "<group>"; };
+		A8F9936420A14CB3000A72A0 /* RTCVideoCapturer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCVideoCapturer.h; sourceTree = "<group>"; };
+		A8F9936520A14D1E000A72A0 /* RTCVideoCapturer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTCVideoCapturer.m; sourceTree = "<group>"; };
+		A8F9936920A14E21000A72A0 /* RTCVideoFrame.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RTCVideoFrame.mm; sourceTree = "<group>"; };
+		A8F9936B20A14E6C000A72A0 /* RTCVideoFrameBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCVideoFrameBuffer.h; sourceTree = "<group>"; };
+		F863C542A77EA88E3D3E03ED /* libPods-WebrtcCaptureDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebrtcCaptureDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8F9919320A026BE000A72A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F991AB20A026BE000A72A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDA2D51ACC6889E9BA5BE93 /* libPods-WebrtcCaptureDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F991B620A026BE000A72A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA343EE1E38D796898B55C3 /* libPods-WebrtcCaptureDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87D5B86772C5A2EBC7BE7BB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01BAEE28399EE19940F081B2 /* libPods-WebrtcCaptureDemo.a */,
+				F863C542A77EA88E3D3E03ED /* libPods-WebrtcCaptureDemoTests.a */,
+				8F99186A73EC9982BA7C912F /* libPods-WebrtcCaptureDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8F9918D20A026BE000A72A0 = {
+			isa = PBXGroup;
+			children = (
+				A8F9919820A026BE000A72A0 /* WebrtcCaptureDemo */,
+				A8F991B120A026BE000A72A0 /* WebrtcCaptureDemoTests */,
+				A8F991BC20A026BE000A72A0 /* WebrtcCaptureDemoUITests */,
+				A8F9919720A026BE000A72A0 /* Products */,
+				87D5B86772C5A2EBC7BE7BB0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8F9919720A026BE000A72A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9919620A026BE000A72A0 /* WebrtcCaptureDemo.app */,
+				A8F991AE20A026BE000A72A0 /* WebrtcCaptureDemoTests.xctest */,
+				A8F991B920A026BE000A72A0 /* WebrtcCaptureDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8F9919820A026BE000A72A0 /* WebrtcCaptureDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9934020A07D76000A72A0 /* sdk */,
+				A8F9919920A026BE000A72A0 /* AppDelegate.h */,
+				A8F9919A20A026BE000A72A0 /* AppDelegate.m */,
+				A8F9919C20A026BE000A72A0 /* ViewController.h */,
+				A8F9919D20A026BE000A72A0 /* ViewController.m */,
+				A8F9919F20A026BE000A72A0 /* Main.storyboard */,
+				A8F991A220A026BE000A72A0 /* Assets.xcassets */,
+				A8F991A420A026BE000A72A0 /* LaunchScreen.storyboard */,
+				A8F991A720A026BE000A72A0 /* Info.plist */,
+				A8F991A820A026BE000A72A0 /* main.m */,
+			);
+			path = WebrtcCaptureDemo;
+			sourceTree = "<group>";
+		};
+		A8F991B120A026BE000A72A0 /* WebrtcCaptureDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8F991B220A026BE000A72A0 /* WebrtcCaptureDemoTests.m */,
+				A8F991B420A026BE000A72A0 /* Info.plist */,
+			);
+			path = WebrtcCaptureDemoTests;
+			sourceTree = "<group>";
+		};
+		A8F991BC20A026BE000A72A0 /* WebrtcCaptureDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8F991BD20A026BE000A72A0 /* WebrtcCaptureDemoUITests.m */,
+				A8F991BF20A026BE000A72A0 /* Info.plist */,
+			);
+			path = WebrtcCaptureDemoUITests;
+			sourceTree = "<group>";
+		};
+		A8F9934020A07D76000A72A0 /* sdk */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9934120A07D7C000A72A0 /* objc */,
+			);
+			path = sdk;
+			sourceTree = "<group>";
+		};
+		A8F9934120A07D7C000A72A0 /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9934220A07D89000A72A0 /* Framework */,
+			);
+			path = objc;
+			sourceTree = "<group>";
+		};
+		A8F9934220A07D89000A72A0 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9934D20A14029000A72A0 /* Headers */,
+				A8F9934320A07D97000A72A0 /* Classes */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		A8F9934320A07D97000A72A0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9936120A14BCB000A72A0 /* PeerConnection */,
+				A8F9935120A1411D000A72A0 /* Common */,
+				A8F9934520A13FB2000A72A0 /* UI */,
+				A8F9934420A13F8C000A72A0 /* Video */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A8F9934420A13F8C000A72A0 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9934A20A14011000A72A0 /* AVCaptureSession+DevicePosition.h */,
+				A8F9934B20A14011000A72A0 /* AVCaptureSession+DevicePosition.mm */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		A8F9934520A13FB2000A72A0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9934620A14009000A72A0 /* RTCCameraPreviewView.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A8F9934D20A14029000A72A0 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9934E20A1405F000A72A0 /* WebRTC */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		A8F9934E20A1405F000A72A0 /* WebRTC */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9936B20A14E6C000A72A0 /* RTCVideoFrameBuffer.h */,
+				A8F9936420A14CB3000A72A0 /* RTCVideoCapturer.h */,
+				A8F9935D20A1462D000A72A0 /* RTCDispatcher.h */,
+				A8F9935E20A1462D000A72A0 /* RTCMacros.h */,
+				A8F9934F20A14082000A72A0 /* RTCCameraPreviewView.h */,
+				A8F9935020A14082000A72A0 /* RTCCameraVideoCapturer.h */,
+			);
+			path = WebRTC;
+			sourceTree = "<group>";
+		};
+		A8F9935120A1411D000A72A0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9935F20A14633000A72A0 /* RTCDispatcher.m */,
+				A8F9935220A14134000A72A0 /* RTCDispatcher+Private.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A8F9936120A14BCB000A72A0 /* PeerConnection */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9936920A14E21000A72A0 /* RTCVideoFrame.mm */,
+				A8F9936520A14D1E000A72A0 /* RTCVideoCapturer.m */,
+				A8F9936220A14BE2000A72A0 /* RTCCameraVideoCapturer.m */,
+			);
+			path = PeerConnection;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8F9919520A026BE000A72A0 /* WebrtcCaptureDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F991C220A026BE000A72A0 /* Build configuration list for PBXNativeTarget "WebrtcCaptureDemo" */;
+			buildPhases = (
+				A8F9919220A026BE000A72A0 /* Sources */,
+				A8F9919320A026BE000A72A0 /* Frameworks */,
+				A8F9919420A026BE000A72A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebrtcCaptureDemo;
+			productName = WebrtcCaptureDemo;
+			productReference = A8F9919620A026BE000A72A0 /* WebrtcCaptureDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8F991AD20A026BE000A72A0 /* WebrtcCaptureDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F991C520A026BE000A72A0 /* Build configuration list for PBXNativeTarget "WebrtcCaptureDemoTests" */;
+			buildPhases = (
+				B9BD66251997C76A43DA7111 /* [CP] Check Pods Manifest.lock */,
+				A8F991AA20A026BE000A72A0 /* Sources */,
+				A8F991AB20A026BE000A72A0 /* Frameworks */,
+				A8F991AC20A026BE000A72A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8F991B020A026BE000A72A0 /* PBXTargetDependency */,
+			);
+			name = WebrtcCaptureDemoTests;
+			productName = WebrtcCaptureDemoTests;
+			productReference = A8F991AE20A026BE000A72A0 /* WebrtcCaptureDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8F991B820A026BE000A72A0 /* WebrtcCaptureDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F991C820A026BE000A72A0 /* Build configuration list for PBXNativeTarget "WebrtcCaptureDemoUITests" */;
+			buildPhases = (
+				47FFA83ADB31D73CA37EEBED /* [CP] Check Pods Manifest.lock */,
+				A8F991B520A026BE000A72A0 /* Sources */,
+				A8F991B620A026BE000A72A0 /* Frameworks */,
+				A8F991B720A026BE000A72A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8F991BB20A026BE000A72A0 /* PBXTargetDependency */,
+			);
+			name = WebrtcCaptureDemoUITests;
+			productName = WebrtcCaptureDemoUITests;
+			productReference = A8F991B920A026BE000A72A0 /* WebrtcCaptureDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8F9918E20A026BE000A72A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = tangzhixin;
+				TargetAttributes = {
+					A8F9919520A026BE000A72A0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A8F991AD20A026BE000A72A0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A8F9919520A026BE000A72A0;
+					};
+					A8F991B820A026BE000A72A0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A8F9919520A026BE000A72A0;
+					};
+				};
+			};
+			buildConfigurationList = A8F9919120A026BE000A72A0 /* Build configuration list for PBXProject "WebrtcCaptureDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8F9918D20A026BE000A72A0;
+			productRefGroup = A8F9919720A026BE000A72A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8F9919520A026BE000A72A0 /* WebrtcCaptureDemo */,
+				A8F991AD20A026BE000A72A0 /* WebrtcCaptureDemoTests */,
+				A8F991B820A026BE000A72A0 /* WebrtcCaptureDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8F9919420A026BE000A72A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F991A620A026BE000A72A0 /* LaunchScreen.storyboard in Resources */,
+				A8F991A320A026BE000A72A0 /* Assets.xcassets in Resources */,
+				A8F991A120A026BE000A72A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F991AC20A026BE000A72A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F991B720A026BE000A72A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47FFA83ADB31D73CA37EEBED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WebrtcCaptureDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9BD66251997C76A43DA7111 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WebrtcCaptureDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8F9919220A026BE000A72A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F9936020A14633000A72A0 /* RTCDispatcher.m in Sources */,
+				A8F9934820A14009000A72A0 /* RTCCameraPreviewView.m in Sources */,
+				A8F9936620A14D1E000A72A0 /* RTCVideoCapturer.m in Sources */,
+				A8F9936320A14BE2000A72A0 /* RTCCameraVideoCapturer.m in Sources */,
+				A8F9919E20A026BE000A72A0 /* ViewController.m in Sources */,
+				A8F991A920A026BE000A72A0 /* main.m in Sources */,
+				A8F9919B20A026BE000A72A0 /* AppDelegate.m in Sources */,
+				A8F9934C20A14011000A72A0 /* AVCaptureSession+DevicePosition.mm in Sources */,
+				A8F9936A20A14E22000A72A0 /* RTCVideoFrame.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F991AA20A026BE000A72A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F991B320A026BE000A72A0 /* WebrtcCaptureDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F991B520A026BE000A72A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F991BE20A026BE000A72A0 /* WebrtcCaptureDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8F991B020A026BE000A72A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8F9919520A026BE000A72A0 /* WebrtcCaptureDemo */;
+			targetProxy = A8F991AF20A026BE000A72A0 /* PBXContainerItemProxy */;
+		};
+		A8F991BB20A026BE000A72A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8F9919520A026BE000A72A0 /* WebrtcCaptureDemo */;
+			targetProxy = A8F991BA20A026BE000A72A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8F9919F20A026BE000A72A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8F991A020A026BE000A72A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8F991A420A026BE000A72A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8F991A520A026BE000A72A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8F991C020A026BE000A72A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A8F991C120A026BE000A72A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8F991C320A026BE000A72A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M34YP5WSX;
+				HEADER_SEARCH_PATHS = ./WebrtcCaptureDemo/sdk/objc/Framework/Headers;
+				INFOPLIST_FILE = WebrtcCaptureDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = musical.ly.WebrtcCaptureDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8F991C420A026BE000A72A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M34YP5WSX;
+				HEADER_SEARCH_PATHS = ./WebrtcCaptureDemo/sdk/objc/Framework/Headers;
+				INFOPLIST_FILE = WebrtcCaptureDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = musical.ly.WebrtcCaptureDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A8F991C620A026BE000A72A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M34YP5WSX;
+				INFOPLIST_FILE = WebrtcCaptureDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = musical.ly.WebrtcCaptureDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebrtcCaptureDemo.app/WebrtcCaptureDemo";
+			};
+			name = Debug;
+		};
+		A8F991C720A026BE000A72A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M34YP5WSX;
+				INFOPLIST_FILE = WebrtcCaptureDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = musical.ly.WebrtcCaptureDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebrtcCaptureDemo.app/WebrtcCaptureDemo";
+			};
+			name = Release;
+		};
+		A8F991C920A026BE000A72A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M34YP5WSX;
+				INFOPLIST_FILE = WebrtcCaptureDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = musical.ly.WebrtcCaptureDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WebrtcCaptureDemo;
+			};
+			name = Debug;
+		};
+		A8F991CA20A026BE000A72A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M34YP5WSX;
+				INFOPLIST_FILE = WebrtcCaptureDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = musical.ly.WebrtcCaptureDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WebrtcCaptureDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8F9919120A026BE000A72A0 /* Build configuration list for PBXProject "WebrtcCaptureDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F991C020A026BE000A72A0 /* Debug */,
+				A8F991C120A026BE000A72A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F991C220A026BE000A72A0 /* Build configuration list for PBXNativeTarget "WebrtcCaptureDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F991C320A026BE000A72A0 /* Debug */,
+				A8F991C420A026BE000A72A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F991C520A026BE000A72A0 /* Build configuration list for PBXNativeTarget "WebrtcCaptureDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F991C620A026BE000A72A0 /* Debug */,
+				A8F991C720A026BE000A72A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F991C820A026BE000A72A0 /* Build configuration list for PBXNativeTarget "WebrtcCaptureDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F991C920A026BE000A72A0 /* Debug */,
+				A8F991CA20A026BE000A72A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8F9918E20A026BE000A72A0 /* Project object */;
+}
